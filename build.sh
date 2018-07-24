@@ -46,5 +46,5 @@ main() {
 }
 
 main "$@"
-log "build finish exit: "$?
+log "build finish exit:"$?
 exit $?
